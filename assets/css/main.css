@@ -1,22 +1,14 @@
-/* Desktop h2: leave as is, or set here if needed */
-h2 {
-  font-size: 2em;
-  font-weight: 700;
-  line-height: 1.15;
-  letter-spacing: -0.01em;
-  color: #111;
-}
-
-/* Mobile h2: always large and visible, overrides all */
+/* --- Consolidated mobile h2 rule --- */
 @media (max-width: 600px) {
-  h2 {
-    font-size: 4.2em !important;
-    font-weight: 700 !important;
-    line-height: 1.15 !important;
-    letter-spacing: -0.01em !important;
-    color: #111 !important;
-  }
+	body h2 {
+		font-size: 17px !important;
+		font-weight: 700;
+		line-height: 1.15;
+		letter-spacing: -0.01em;
+		color: #1f60ff;
+	}
 }
+/* --- Consolidated mobile h2 rule --- */
 /* Email form submit button: match .button and .buttonfind for centering and padding */
 .fit.primary {
 	display: flex !important;
