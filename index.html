@@ -10,14 +10,15 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Google Fonts: Poppins -->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
 		<link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dq6xqk5au/image/upload/v1759173279/White_hq309q.png">
 			<style>
-				html, body { background: #fff !important; }
-				@media (max-width: 600px) {
-					h2 {
-						font-size: 3.2em !important;
+					html, body {
+						background: #fff !important;
+						font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
 					}
-				}
+					/* h2 mobile font-size moved to main.css for maintainability */
 			</style>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<script src="https://kit.fontawesome.com/fd9f5a6335.js" crossorigin="anonymous"></script>
@@ -199,7 +200,7 @@
 					<form method="post" action="#" class="cta"id="emailForm">
 					<div class="row gtr-uniform gtr-50">
 						<div class="col-8 col-12-xsmall"> <input type="email" name="email" id="email" placeholder="Your Email Address" required /></div>
-						<div class="col-4 col-12-xsmall"> <input type="submit" value="Send" class="fit primary" style="padding: 0 1em 0 1em;" /></div>
+						<div class="col-4 col-12-xsmall"> <input type="submit" value="Send" class="fit primary" style="padding: 0.7em 1em; line-height: 1.2; vertical-align: middle; display: inline-block;" /></div>
 					</div>
 					</form>
 				</section>
