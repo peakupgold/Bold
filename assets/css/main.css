@@ -1,20 +1,21 @@
-@media (max-width: 600px) {
-	h2 {
-		font-size: 4.2em !important;
-		font-weight: 700;
-		line-height: 1.15;
-		letter-spacing: -0.01em;
-		color: #111;
-	}
+/* Desktop h2: leave as is, or set here if needed */
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: #111;
 }
+
+/* Mobile h2: always large and visible, overrides all */
 @media (max-width: 600px) {
-	h2 {
-		font-size: 4.2em !important;
-		font-weight: 700;
-		line-height: 1.15;
-		letter-spacing: -0.01em;
-		color: #111;
-	}
+  h2 {
+    font-size: 4.2em !important;
+    font-weight: 700 !important;
+    line-height: 1.15 !important;
+    letter-spacing: -0.01em !important;
+    color: #111 !important;
+  }
 }
 /* Email form submit button: match .button and .buttonfind for centering and padding */
 .fit.primary {
